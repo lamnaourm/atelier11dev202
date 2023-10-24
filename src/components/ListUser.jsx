@@ -10,7 +10,6 @@ export default class ListUser extends Component {
         return (
             <div className='list'>
                 <h1>Nombre d'utilisateurs : {this.state.users.length}</h1>
-
                 {
                     this.state.users.map(u => <div className='user'>
                         <h2>Nom : {u.name}</h2>
